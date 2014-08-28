@@ -15,10 +15,10 @@ use common\extensions\IndexPicker;
 
 Then use it with an ActiveField like this :
 
-<pre>
+```
 	// for an input like 0000000,00
 	<?= $form->field($model, 'index_value')->widget(IndexPicker::className(), [
 		'numberOfDigits' => 7,
 		'numberOfDecimals' => 2
 	]); ?>
-</pre>
+```
