@@ -17,7 +17,8 @@ Then use it with an ActiveField like this :
 
 <pre>
 // for an input like 0000000,00
-<?php $form->field($model, 'index_value')->widget(IndexPicker::className(), [
+
+<?= $form->field($model, 'index_value')->widget(IndexPicker::className(), [
 				'numberOfDigits' => 7,
 				'numberOfDecimals' => 2
 			]); ?>
