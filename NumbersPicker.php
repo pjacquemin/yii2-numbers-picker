@@ -59,7 +59,7 @@ class NumbersPicker extends \yii\jui\InputWidget {
 		return Html::activeDropDownList(
 						$this->model, $this->attribute, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [
 							'class' => 'form-control counterDropdown',
-							'style' => 'width : 50px; display: inline;',
+							'style' => 'width : 70px; display: inline;',
 							'id' => 'counterDropdown' . $type . $id,
 						]
 		);
